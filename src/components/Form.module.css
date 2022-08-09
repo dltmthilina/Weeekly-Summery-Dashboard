@@ -1,0 +1,27 @@
+.basicInfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form{
+
+    margin-top: 2rem;
+    width: 90%;
+    max-width: 1200px;
+    
+}
+
+.summery{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    
+}
+.actionbtn select{
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size:large;
+}

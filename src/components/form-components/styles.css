@@ -1,0 +1,16 @@
+.summery {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+  row-gap: 0.5rem;
+}
+.summery input {
+  width: 1rem;
+}
+
+.clearenceSummery {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+  row-gap: 0.5rem;
+}/*# sourceMappingURL=styles.css.map */
