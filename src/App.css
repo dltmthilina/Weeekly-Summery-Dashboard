@@ -1,9 +1,21 @@
-header{
-    border: 1px solid black;
+header {
+  display: flex;
+  height: 5rem;
+  background-color: rgb(184, 163, 135);
+  align-items: center;
 }
-.formdata{
-    display: flex;
-    justify-content: center;
-    
-    
+header h1 {
+  margin-left: 1rem;
 }
+
+.formdata {
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+}
+
+.datatable {
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=App.css.map */

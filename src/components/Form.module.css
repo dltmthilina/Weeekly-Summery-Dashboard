@@ -4,11 +4,9 @@
     justify-content: space-between;
 }
 form{
-
-    margin-top: 2rem;
-    width: 90%;
-    max-width: 1200px;
     
+    padding: 2rem 3rem;
+    width: 100%;
 }
 
 .summery{
@@ -18,10 +16,27 @@ form{
     justify-content:space-between;
     
 }
-.actionbtn select{
-    border: 1px solid black;
-    width: 100%;
-    text-align: center;
+.actionbtn {
+    
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    width: 75%;
     font-weight: 600;
     font-size:large;
+}
+
+.actionbtn input{
+    margin-left: 0.5rem;
+}
+
+.actionbtn label{
+    margin-left: 0.3rem;
+}
+
+ button{
+    background-color: aquamarine;
+    width: 7rem;
+    font-size: large;
+    border-radius: 0.5rem;
 }

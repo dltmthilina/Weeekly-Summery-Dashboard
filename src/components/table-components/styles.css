@@ -1,7 +1,6 @@
 .summery-data {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
 }
 .summery-data p {
   margin: 0;

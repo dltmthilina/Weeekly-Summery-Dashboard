@@ -133,6 +133,8 @@ const Form = () => {
         <PendingClearence />
         <MeetingNotes />
       </div>
+
+
       <div className={classes.actionbtn}>
         <div>
           <input
@@ -171,7 +173,8 @@ const Form = () => {
           <label htmlFor="absent">Absent</label>
         </div>
       </div>
-      <div>
+
+      <div className="classes.submitbtn">
         <button type="submit">Submit</button>
       </div>
     </form>

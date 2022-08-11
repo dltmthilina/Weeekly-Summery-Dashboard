@@ -24,9 +24,11 @@ useEffect(()=>{
         <h1>Weekly Review Summery</h1>
       </header>
       <div className="formdata">
-      <Form/>
+        <Form/>
       </div>
-      <div>
+      <hr/>
+      <div className="datatable">
+        
         <Table/>
       </div>
       

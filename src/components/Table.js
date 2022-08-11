@@ -4,6 +4,7 @@ import classes from "./Table.module.css"
 import Recruitment from "../components/table-components/Recruitment"
 import TandA from "../components/table-components/TandA";
 import PendingClearence from "../components/table-components/PendingClearence"
+import MeetingNotes from './table-components/MeetingNotes';
 
 const Table = () => {
     return (
@@ -51,7 +52,17 @@ const Table = () => {
                     <td><PendingClearence/></td>
                     <td><PendingClearence/></td>
                     <td><PendingClearence/></td>
+                    <td><PendingClearence/></td>
                     
+                </tr>
+
+                <tr>
+                    <th>Meeting Notes</th>
+                    <td><MeetingNotes/></td>
+                    <td><MeetingNotes/></td>
+                    <td><MeetingNotes/></td>
+                    <td><MeetingNotes/></td>
+                    <td><MeetingNotes/></td>
                 </tr>
             </tbody>
         </table>

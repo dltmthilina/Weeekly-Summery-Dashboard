@@ -1,0 +1,21 @@
+
+header{
+    display: flex;
+    height: 5rem; 
+    background-color: antiquewhite;
+    align-items: center;
+
+    h1{
+        margin-left: 1rem;
+    }
+}
+.formdata {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+}
+.datatable {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}

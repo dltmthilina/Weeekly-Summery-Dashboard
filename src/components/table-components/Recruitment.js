@@ -9,8 +9,8 @@ const Recruitment = () => {
     <div className="summery-data">
 
       <p>Existing: 2</p>
-       <p>Registrations: 3</p>
-       <p>New codes: 5</p>
+      <p>Registrations: 3</p>
+      <p>New codes: 5</p>
       
     </div>
   );
